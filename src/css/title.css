@@ -1,0 +1,29 @@
+
+
+.title-site::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .title-site:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .title-site::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    /*background: rgba(86, 107, 134, 0.4);*/
+    z-index: 2;
+    transition: transform 0.3s ease;
+  }
+  
+  .title-site {
+    position: relative;
+    font-size: 5rem;
+  }
+  
+  
