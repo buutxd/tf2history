@@ -14,8 +14,20 @@ body {
   
   
 
+  .bgImage {
+    background-image: url("./img/background-image-1.png");
+    
+    background-color: #cccccc;
+    height: 36vh;
+    z-index: auto;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 
-
+   
 
     /* foto da logo */
   .timeline ul li::before {
@@ -28,6 +40,9 @@ body {
       
   }
    
+  .hiddenText{
+    overflow: hidden;
+  }
   
   /* grossura da linha */
   .containerLine {
@@ -37,7 +52,7 @@ body {
       left: 50%;
       transform: translateX(-50%);
       width: 5px;
-      height: 80%;
+      height: 100%;
       background-color: rgb(83, 83, 83);
   }
 
@@ -69,6 +84,7 @@ body {
   -webkit-transition: height 0.5s;
   
 }
+
 
 
 .timeline ul li:hover {
@@ -554,7 +570,7 @@ left: 328px;
   
   /* altura da caixa */
   .timeline ul li {
-    margin-top: -560px;
+    margin-top: 15px;
   }
 
   /* largura da caixa */
@@ -596,17 +612,15 @@ left: 328px;
   /* distancia da bola pro bloco */
   .timeline ul li:nth-child(odd)::before {
     transform: translate(50%, -50%);
-    right: 435px;
+    right: 440px;
   }
-  .timeline ul li:nth-child(even)::before {
-    transform: translate(-50%, -50%);
-    left: -30px;
-  }
+  
   
   /* altura da data  */
   .timelineContent .date {
     position: absolute;
-    top: -15px;
+    top: -18px;
+    left: 25px;
   }
   
   /* cor da bola  */
@@ -623,4 +637,335 @@ left: 328px;
   position: absolute;
   top: 0;
   left: 0;
+}
+
+/* texto slide*/
+.timeline ul li:hover .secondText{
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+/* medalha slide*/
+.timeline ul li:hover .inviteAppear{
+  animation-duration: 0.6s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+/* texto slide*/
+.timeline ul li:hover .thirdText{
+  animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 300%;
+  }
+}
+/* medalha   slide*/
+.timeline ul li:hover .inviteAppear3{
+  animation-duration: 0.6s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: -15%;
+    width: 100%;
+    display: hidden;
+  }
+
+  to {
+    
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+/* texto slide*/
+.timeline ul li:hover .thirdAcessText{
+  animation-duration: 0.5s;
+  animation-name: slidein-acess;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein-acess {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 300%;
+  }
+}
+/* medalha   slide*/
+.timeline ul li:hover .acessoThird{
+  animation-duration: 0.6s;
+  animation-name: slidein-acess;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein-acess {
+  from {
+    margin-left: 15%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  to {
+    
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+/* texto slide*/
+.timeline ul li:hover .secondAcessText{
+  animation-duration: 0.5s;
+  animation-name: slidein-acess;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein-acess {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 300%;
+  }
+}
+/* medalha   slide*/
+.timeline ul li:hover .acessoSecond{
+  animation-duration: 0.6s;
+  animation-name: slidein-acess;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein-acess {
+  from {
+    margin-left: 15%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  to {
+    
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+/* texto slide*/
+.timeline ul li:hover .thirdCentralText{
+  animation-duration: 0.5s;
+  animation-name: slidein-central;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein-central {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 300%;
+  }
+}
+/* medalha   slide*/
+.timeline ul li:hover .centralThird{
+  animation-duration: 0.6s;
+  animation-name: slidein-central;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein-central {
+  from {
+    margin-left: 15%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  to {
+    
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+
+
+/* texto slide*/
+.timeline ul li:hover .secondCentralText{
+  animation-duration: 0.5s;
+  animation-name: slidein-central;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein-central {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 300%;
+  }
+}
+/* medalha   slide*/
+.timeline ul li:hover .centralSecond{
+  animation-duration: 0.6s;
+  animation-name: slidein-central;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein-central {
+  from {
+    margin-left: -15%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  to {
+    
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+/* texto slide*/
+.timeline ul li:hover .secondOpenText{
+  animation-duration: 0.5s;
+  animation-name: slidein-open;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein-open {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 300%;
+  }
+}
+/* medalha   slide*/
+.timeline ul li:hover .openSecond{
+  animation-duration: 0.6s;
+  animation-name: slidein-open;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein-open {
+  from {
+    margin-left: -15%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  to {
+    
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+/* texto slide*/
+.timeline ul li:hover .thirdOpenText{
+  animation-duration: 0.5s;
+  animation-name: slidein-open;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein-open {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 300%;
+  }
+}
+/* medalha   slide*/
+.timeline ul li:hover .openThird{
+  animation-duration: 0.6s;
+  animation-name: slidein-open;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein-open {
+  from {
+    margin-left: 15%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  to {
+    
+    margin-right: 0%;
+    width: 100%;
+  }
 }

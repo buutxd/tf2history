@@ -114,10 +114,12 @@ function App() {
   </div>
   </div>
       
-    
-    
+  
+  <div className={estilo.bgImage}>
+  <div className={estilo.shade}></div>
   <div className={estilo.container}>
   <div className={estilo.hiddenText}>
+  <div className={estilo.containerLine}></div>
     <div className={estilo.timeline}>
       
       <ul>
@@ -211,55 +213,202 @@ function App() {
   
 
   
-
-  <div className={estilo2.bgText}>
+ <div className={estilo2.bgImage}>
+  <div className={estilo2.shade}></div>
   <div className={estilo2.container}>
+  <div className={estilo2.hiddenText}>
+  <div className={estilo2.containerLine}></div>
     <div className={estilo2.timeline}>
       
       <ul>
         <li>
           <div className={estilo2.timelineContent}>
             <h3 className={estilo2.date}>20 de maio, 2021</h3>
-            <h1>Brasil fortress S15 <span>6s</span></h1>
-            <p> Taste the secret - MVP: ffccklg</p>
+          <h1>FBTF S18 <span>6s</span></h1>
+            <p>
+             
+              <span style={{marginLeft:'0px',color:'white'}}>INVITE <span style={{marginLeft:'7px'}}></span>- </span><span style={{fontSize:'8px'}}>{'\   '} {/* CARáCTER INVISIVEL NÃO APAGUE  */}
+             </span> <span style={{marginLeft:'0px', color:'white'}}>Taste the secret</span> {'\  '}<span style={{marginLeft:'7px', color:'white'}}>ACESSO -</span> {'\ '}
+             <span style={{marginLeft:'6px',color:'white'}}> Dream hunter</span>
+             
+             </p>
+             
+            
+             
+             
+             <div className={estilo2.openInsideBlock}>
+             <span style={{marginLeft:'9px',color:'white'}}>{'\   '}ABERTA - {'\ '} <div className={estilo2.abertaPos}>Tejota bombs</div></span>
+             </div>
+
+
+          <div className={estilo2.medal}></div>
+          <div className={estilo2.medal2}></div>  
+          <div className={estilo2.medal3}></div>  
+          <div className={estilo2.medal4}></div> 
+          
+          <div className={estilo2.hiddenInside}>
+          
+          
+          <div className={estilo2.centralInsideBlock}>
+             <span style={{marginLeft:'5px',color:'white' ,fontSize:'14px'}}>CENTRAL -{'\ '}<div className={estilo2.centralPos}> Holando solutions </div></span>
+             </div>
+          </div>    
+          
+          
+        
           </div>
+         {/* medalha segundo lugar invite  */}
+         <div className={estilo2.inviteAppear}>
+          <img src={second} className='watson'></img>
+            </div> 
+            <div className={estilo2.secondText}>Taste the second</div>  
+          {/* medalha terceiro lugar invite  */}
+            <div className={estilo2.inviteAppear3}>
+          <img src={third} className='watson'></img>
+            </div> 
+            <div className={estilo2.thirdText}>Taste the third</div>  
+                {/* medalha segundo lugar acess  */}
+            <div className={estilo2.acessoSecond}>
+          <img src={second} ></img>
+            </div> 
+            <div className={estilo2.secondAcessText}>Dream second</div>  
+          {/* medalha terceiro lugar acess */}
+            <div className={estilo2.acessoThird}>
+          <img src={third} className='watson'></img>
+            </div> 
+            <div className={estilo2.thirdAcessText}>Dream third</div>  
+          {/* medalha seg lugar cent */}
+            <div className={estilo2.centralSecond}>
+          <img src={second} ></img>
+            </div> 
+            <div className={estilo2.secondCentralText}>Dream second</div>
+          {/* medalha third lugar cent */}
+            <div className={estilo2.centralThird}>
+          <img src={third} ></img>
+            </div> 
+            <div className={estilo2.thirdCentralText}>Dream third</div>
+          {/* medalha second lugar open */}
+            <div className={estilo2.openSecond}>
+          <img src={second} ></img>
+            </div> 
+            <div className={estilo2.secondOpenText}>Tejota second</div>
+            {/* medalha third lugar cent */}
+            <div className={estilo2.openThird}>
+          <img src={third} ></img>
+            </div> 
+            <div className={estilo2.thirdOpenText}>Dream third</div>
+            
+        
         </li>
       </ul>
-
     </div>
-   
+
   </div>
+    </div>
  <h1 style={{fontSize:'50px'}}></h1>
-    
-  </div>
+ 
+ </div>
 
 
-  <div className="bg-image">
-  <div className="shade"></div>
-  <div className={estilo3.containerLine}></div>
-  <div className={estilo3.bgText}>
+
+ <div className={estilo3.bgImage}>
+  <div className={estilo3.shade}></div>
   <div className={estilo3.container}>
+  <div className={estilo3.hiddenText}>
+  <div className={estilo3.containerLine}></div>
     <div className={estilo3.timeline}>
       
       <ul>
         <li>
           <div className={estilo3.timelineContent}>
             <h3 className={estilo3.date}>20 de maio, 2021</h3>
-            <h1>FBTF S29 <span>9s</span></h1>
-            <p> Taste the secret - MVP: ffccklg</p>
+          <h1>FBTF S18 <span>6s</span></h1>
+            <p>
+             
+              <span style={{marginLeft:'0px',color:'white'}}>INVITE <span style={{marginLeft:'7px'}}></span>- </span><span style={{fontSize:'8px'}}>{'\   '} {/* CARáCTER INVISIVEL NÃO APAGUE  */}
+             </span> <span style={{marginLeft:'0px', color:'white'}}>Taste the secret</span> {'\  '}<span style={{marginLeft:'7px', color:'white'}}>ACESSO -</span> {'\ '}
+             <span style={{marginLeft:'6px',color:'white'}}> Dream hunter</span>
+             
+             </p>
+             
+            
+             
+             
+             <div className={estilo3.openInsideBlock}>
+             <span style={{marginLeft:'9px',color:'white'}}>{'\   '}ABERTA - {'\ '} <div className={estilo3.abertaPos}>Tejota bombs</div></span>
+             </div>
+
+
+          <div className={estilo3.medal}></div>
+          <div className={estilo3.medal2}></div>  
+          <div className={estilo3.medal3}></div>  
+          <div className={estilo3.medal4}></div> 
+          
+          <div className={estilo3.hiddenInside}>
+          
+          
+          <div className={estilo3.centralInsideBlock}>
+             <span style={{marginLeft:'5px',color:'white' ,fontSize:'14px'}}>CENTRAL -{'\ '}<div className={estilo3.centralPos}> Holando solutions </div></span>
+             </div>
+          </div>    
+          
+          
+        
           </div>
+         {/* medalha segundo lugar invite  */}
+         <div className={estilo3.inviteAppear}>
+          <img src={second} className='watson'></img>
+            </div> 
+            <div className={estilo3.secondText}>Taste the second</div>  
+          {/* medalha terceiro lugar invite  */}
+            <div className={estilo3.inviteAppear3}>
+          <img src={third} className='watson'></img>
+            </div> 
+            <div className={estilo3.thirdText}>Taste the third</div>  
+                {/* medalha segundo lugar acess  */}
+            <div className={estilo3.acessoSecond}>
+          <img src={second} ></img>
+            </div> 
+            <div className={estilo3.secondAcessText}>Dream second</div>  
+          {/* medalha terceiro lugar acess */}
+            <div className={estilo3.acessoThird}>
+          <img src={third} className='watson'></img>
+            </div> 
+            <div className={estilo3.thirdAcessText}>Dream third</div>  
+          {/* medalha seg lugar cent */}
+            <div className={estilo3.centralSecond}>
+          <img src={second} ></img>
+            </div> 
+            <div className={estilo3.secondCentralText}>Dream second</div>
+          {/* medalha third lugar cent */}
+            <div className={estilo3.centralThird}>
+          <img src={third} ></img>
+            </div> 
+            <div className={estilo3.thirdCentralText}>Dream third</div>
+          {/* medalha second lugar open */}
+            <div className={estilo3.openSecond}>
+          <img src={second} ></img>
+            </div> 
+            <div className={estilo3.secondOpenText}>Tejota second</div>
+            {/* medalha third lugar cent */}
+            <div className={estilo3.openThird}>
+          <img src={third} ></img>
+            </div> 
+            <div className={estilo3.thirdOpenText}>Dream third</div>
+            
+        
         </li>
       </ul>
-
     </div>
-   
-  </div>
- <h1 style={{fontSize:'50px'}}></h1>
-    
-  </div>
-  </div>
 
+  </div>
+    </div>
+ <h1 style={{fontSize:'50px'}}></h1>
  
+ </div>
+
+{/* BACKGROUND DO ESTILO.BG-IMAGE */}
+ </div>
 
 
   
