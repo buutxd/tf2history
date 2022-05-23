@@ -386,7 +386,7 @@ function App() {
             </div> 
             <div className={estilo3.thirdCentralText}>Dream third</div>
           {/* medalha second lugar open */}
-            <div className={estilo2.openSecond}>
+            <div className={estilo3.openSecond}>
           <img src={second} ></img>
             </div> 
             <div className={estilo3.secondOpenText}>Tejota second</div>
