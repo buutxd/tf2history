@@ -6,8 +6,6 @@ body {
 }
 
 
-
-
 * { 
   margin: 0; 
 }
@@ -620,7 +618,7 @@ left: 328px;
   /* distancia da bola pro bloco */
   .timeline ul li:nth-child(odd)::before {
     transform: translate(50%, -50%);
-    right: 439px;
+    right: 440px;
   }
   .timeline ul li:nth-child(even)::before {
     transform: translate(-50%, -50%);

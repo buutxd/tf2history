@@ -308,7 +308,7 @@ function App() {
     </div>
  <h1 style={{fontSize:'50px'}}></h1>
  
- </div>
+ 
 
 
 
@@ -409,6 +409,7 @@ function App() {
  </div>
 
 {/* BACKGROUND DO ESTILO.BG-IMAGE */}
+ </div>
  </div>
  </div>
 
