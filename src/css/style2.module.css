@@ -545,7 +545,7 @@ left: 328px;
 
     /* grossura da linha */
     .timeline ul li::before {
-      background-image: url("./img/vanilla-logo.png");
+      background-image: url("./img/bf-image.png");
       height: 10px;
       background-position: center;
       background-repeat: no-repeat;
@@ -585,7 +585,7 @@ left: 328px;
   .timeline ul li:nth-child(odd) {
     float: left;
     clear: right;
-    transform: translateX(-77px);
+    transform: translateX(-79px);
     border-radius: 20px 20px 20px 20px;
   }
   .timeline ul li:nth-child(even) {
@@ -612,7 +612,7 @@ left: 328px;
   /* distancia da bola pro bloco */
   .timeline ul li:nth-child(odd)::before {
     transform: translate(50%, -50%);
-    right: -13px;
+    right: -15px;
   }
   .timeline ul li:nth-child(even)::before {
     transform: translate(-50%, -50%);

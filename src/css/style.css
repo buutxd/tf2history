@@ -23,18 +23,7 @@ body {
   
 
 
-  .bg-image {
-  background-image: url("./img/background-image-1.png");
   
-  background-color: #cccccc;
-  height: 65vh;
-  z-index: auto;
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
 
     /* foto da logo */
   .timeline ul li::before {
@@ -55,7 +44,7 @@ body {
       left: 50%;
       transform: translateX(-50%);
       width: 5px;
-      height: 45%;
+      height: 70%;
       background-color: rgb(83, 83, 83);
   }
 
@@ -529,7 +518,7 @@ left: 328px;
   
   /* altura da caixa */
   .timeline ul li {
-    margin-top: 155px;
+    margin-top: 100px;
   }
 
   /* largura da caixa */

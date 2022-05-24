@@ -6,8 +6,6 @@ body {
 }
 
 
-
-
 * { 
   margin: 0; 
 }
@@ -553,7 +551,7 @@ left: 328px;
 
     /* grossura da linha */
     .timeline ul li::before {
-      background-image: url("./img/vanilla-logo.png");
+      background-image: url("./img/FBTF-LOGO.png");
       height: 10px;
       background-position: center;
       background-repeat: no-repeat;
@@ -620,7 +618,7 @@ left: 328px;
   /* distancia da bola pro bloco */
   .timeline ul li:nth-child(odd)::before {
     transform: translate(50%, -50%);
-    right: 435px;
+    right: 440px;
   }
   .timeline ul li:nth-child(even)::before {
     transform: translate(-50%, -50%);
