@@ -18,7 +18,7 @@ body {
     background-image: url("./img/background-image-1.png");
     
     background-color: #cccccc;
-    height: 31.3vh;
+    height: 36vh;
     z-index: auto;
     position: relative;
     background-attachment: fixed;
@@ -622,7 +622,8 @@ left: 328px;
   /* altura da data  */
   .timelineContent .date {
     position: absolute;
-    top: -15px;
+    top: -18px;
+    left: 25px;
   }
   
   /* cor da bola  */

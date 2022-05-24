@@ -570,8 +570,8 @@ left: 328px;
   /* altura da data  */
   .date {
     position: absolute;
-    top: 135px;
-    left: -15px;
+    top: 100px;
+    left: -17px;
   }
   
   /* cor da bola  */
