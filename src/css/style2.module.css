@@ -545,7 +545,7 @@ left: 328px;
 
     /* grossura da linha */
     .timeline ul li::before {
-      background-image: url("./img/vanilla-logo.png");
+      background-image: url("./img/bf-image.png");
       height: 10px;
       background-position: center;
       background-repeat: no-repeat;
@@ -622,7 +622,8 @@ left: 328px;
   /* altura da data  */
   .timelineContent .date {
     position: absolute;
-    top: -15px;
+    top: -18px;
+    left: 25px;
   }
   
   /* cor da bola  */

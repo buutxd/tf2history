@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/style.css';
+import background from './css/background.module.css';
 import estilo from './css/style.module.css';
 import estilo2 from './css/style2.module.css';
 import estilo3 from './css/style3.module.css';
@@ -12,9 +13,9 @@ import third from './css/img/medal-third-40px.png';
 function App() {
   return (
     <div className="App">
-<div className="bg-image">
-<div className="shade"></div>
+<div className={background.bgImage}>
 
+<div className="shade"></div>
 <h1 className="title-site">TF2 Comp. history</h1> 
 <div className="bg-text">
   <div className="container">
@@ -112,7 +113,7 @@ function App() {
  <h1 style={{fontSize:'50px'}}></h1>
     
   </div>
-  </div>
+  
       
   
   <div className={estilo.bgImage}>
@@ -386,7 +387,7 @@ function App() {
             </div> 
             <div className={estilo3.thirdCentralText}>Dream third</div>
           {/* medalha second lugar open */}
-            <div className={estilo2.openSecond}>
+            <div className={estilo3.openSecond}>
           <img src={second} ></img>
             </div> 
             <div className={estilo3.secondOpenText}>Tejota second</div>
@@ -409,7 +410,7 @@ function App() {
 
 {/* BACKGROUND DO ESTILO.BG-IMAGE */}
  </div>
-
+ </div>
 
   
 

@@ -23,19 +23,7 @@ body {
   
 
 
-  .bg-image {
-  background-image: url("./img/background-image-1.png");
   
-  background-color: #cccccc;
-  height: 65vh;
-  z-index: auto;
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
-
     /* foto da logo */
   .timeline ul li::before {
     background-image: url("./img/FBTF-LOGO.png");
@@ -529,7 +517,7 @@ left: 328px;
   
   /* altura da caixa */
   .timeline ul li {
-    margin-top: 155px;
+    margin-top: 120px;
   }
 
   /* largura da caixa */
@@ -581,8 +569,8 @@ left: 328px;
   /* altura da data  */
   .date {
     position: absolute;
-    top: 135px;
-    left: -15px;
+    top: 100px;
+    left: -17px;
   }
   
   /* cor da bola  */
