@@ -24,6 +24,7 @@ body {
 
 
   
+
     /* foto da logo */
   .timeline ul li::before {
     background-image: url("./img/FBTF-LOGO.png");
@@ -43,7 +44,7 @@ body {
       left: 50%;
       transform: translateX(-50%);
       width: 5px;
-      height: 45%;
+      height: 44%;
       background-color: rgb(83, 83, 83);
   }
 
