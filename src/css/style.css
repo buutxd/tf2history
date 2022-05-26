@@ -44,7 +44,7 @@ body {
       left: 50%;
       transform: translateX(-50%);
       width: 5px;
-      height: 70%;
+      height: 70.2%;
       background-color: rgb(83, 83, 83);
   }
 
@@ -67,7 +67,7 @@ body {
 /* tamanho dos blocos  */
 .timeline ul li {
   padding: 14px 10px 20px 20px;
-  background-color: #1e1f22;
+  background-color: #1c1d20;
   color: white;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -502,7 +502,6 @@ left: 328px;
   color: white;
   font-size: 12px;
   font-weight: 300;
-  margin-bottom: 10px;
   letter-spacing: 2px;
 }
 @media only screen and (min-width: 768px) {
@@ -518,7 +517,7 @@ left: 328px;
   
   /* altura da caixa */
   .timeline ul li {
-    margin-top: 100px;
+    margin-top: 81.5px;
   }
 
   /* largura da caixa */
@@ -536,12 +535,7 @@ left: 328px;
     transform: translateX(-84px);
     border-radius: 20px 20px 20px 20px;
   }
-  .timeline ul li:nth-child(even) {
-    float: right;
-    clear: left;
-    transform: translateX(60px);
-    border-radius: 20px 20px 20px 20px;
-  }
+  
   
   
   
@@ -549,8 +543,8 @@ left: 328px;
   .timeline ul li::before {
     content: "";
     position: absolute;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     background-color: rgb(46, 45, 45);
     top: 0px;
@@ -570,7 +564,7 @@ left: 328px;
   /* altura da data  */
   .date {
     position: absolute;
-    top: 100px;
+    top: 54px;
     left: -17px;
   }
   
