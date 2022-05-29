@@ -36,17 +36,7 @@ body {
       
   }
   
-  /* grossura da linha */
-  .container-line {
-    
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 5px;
-      height: 70.2%;
-      background-color: rgb(83, 83, 83);
-  }
+  
 
 
 
@@ -574,6 +564,29 @@ left: 328px;
   }
 }
 
+
+/* grossura da linha */
+  .container-line {
+      
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 70.2%;
+    background-color: rgb(83, 83, 83);
+  }
+
+@media only screen and (max-height: 900px){
+  /* grossura da linha */
+    .container-line {
+        
+      
+      
+      height: 68.2%;
+    
+    }
+  }
 /* força do shade do background*/
 .shade {
   width: 100%;
