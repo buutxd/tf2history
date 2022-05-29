@@ -494,7 +494,7 @@ left: 328px;
   font-weight: 300;
   letter-spacing: 2px;
 }
-@media only screen and (min-width: 768px) {
+
   .timeline:before {
     content: "";
     position: absolute;
@@ -554,7 +554,7 @@ left: 328px;
   /* altura da data  */
   .date {
     position: absolute;
-    top: 54px;
+    top: 63px;
     left: -17px;
   }
   
@@ -562,31 +562,30 @@ left: 328px;
   .timeline ul li:hover::before {
   background-color: rgb(35, 211, 167);
   }
-}
 
 
 /* grossura da linha */
-  .container-line {
-      
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 5px;
-    height: 70.2%;
-    background-color: rgb(83, 83, 83);
-  }
 
-@media only screen and (max-height: 900px){
+  .container-line {
+        
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 5px;
+      height: 74.6%;
+      background-color: rgb(83, 83, 83);
+    }
+
+@media only screen and (max-height: 630px){
   /* grossura da linha */
     .container-line {
-        
-      
-      
-      height: 68.2%;
+ 
+      height: 61.2%;
     
     }
   }
+
 /* força do shade do background*/
 .shade {
   width: 100%;
