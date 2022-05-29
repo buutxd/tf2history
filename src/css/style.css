@@ -577,11 +577,11 @@ left: 328px;
       background-color: rgb(83, 83, 83);
     }
 
-@media only screen and (max-height: 630px){
+@media only screen and (max-height: 900px){
   /* grossura da linha */
     .container-line {
  
-      height: 61.2%;
+      height: 68.9%;
     
     }
   }
