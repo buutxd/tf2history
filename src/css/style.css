@@ -36,17 +36,7 @@ body {
       
   }
   
-  /* grossura da linha */
-  .container-line {
-    
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 5px;
-      height: 70.2%;
-      background-color: rgb(83, 83, 83);
-  }
+  
 
 
 
@@ -67,7 +57,7 @@ body {
 /* tamanho dos blocos  */
 .timeline ul li {
   padding: 14px 10px 20px 20px;
-  background-color: #1b1915;
+  background-color: #181713;
   color: white;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -574,6 +564,29 @@ left: 328px;
   }
 }
 
+
+/* grossura da linha */
+  .container-line {
+      
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 70.2%;
+    background-color: rgb(83, 83, 83);
+  }
+
+@media only screen and (max-height: 900px){
+  /* grossura da linha */
+    .container-line {
+        
+      
+      
+      height: 68.2%;
+    
+    }
+  }
 /* força do shade do background*/
 .shade {
   width: 100%;
