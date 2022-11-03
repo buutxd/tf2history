@@ -1,48 +1,46 @@
-
-
-
-* { 
-  margin: 0; 
+* {
+  margin: 0;
 }
+
 body {
   border: 0;
-  
-  }
-  
-  
-  .title-site{
-    text-align: center;
-    color: white;
-    font-weight: 500;
-    font-size: 50px;
-    word-spacing: -10px;
-  }
 
-  
-  
-  
+}
 
 
-  
+.title-site {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  font-size: 50px;
+  word-spacing: -10px;
+}
 
-    /* foto da logo */
-  .timeline ul li::before {
-    background-image: url("./img/FBTF-LOGO.png");
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-      
-  }
-  
-  
+
+
+
+
+
+
+
+/* foto da logo */
+.timeline ul li::before {
+  background-image: url("./img/FBTF-LOGO.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+
 
 
 
 
 /* tamanho dos blocos  */
-  .timeline {
+.timeline {
   width: 80%;
   height: auto;
   max-width: 800px;
@@ -64,41 +62,46 @@ body {
   height: 102px;
   transition: height 0.5s;
   -webkit-transition: height 0.5s;
-  
+
 }
+
 .hidden-text {
   overflow: hidden;
-  }
+}
 
 .timeline ul li:hover {
   height: 240px;
- 
+
 }
-.timeline ul li:hover .hidden-inside{
+
+.timeline ul li:hover .hidden-inside {
   position: absolute;
   top: 170px;
-  
+
 }
 
 /* posição da colocação "ACESSO"*/
-.central-inside-block{
+.central-inside-block {
   position: absolute;
   left: 15px;
- 
+
 }
+
 /* posição da colocação "ACESSO"*/
-.open-inside-block{
+.open-inside-block {
   position: absolute;
   left: 190px;
 }
+
 /* posição do nome do time*/
-.aberta-pos{
+.aberta-pos {
   position: absolute;
   top: 4px;
   right: -91px;
 }
+
 /* posição do nome do time*/
-.central-pos{
+.central-pos {
   position: absolute;
   top: 4px;
   right: -124px;
@@ -106,21 +109,23 @@ body {
 }
 
 /* posição da colocação "ACESSO" depois de descer */
-.timeline ul li:hover .central-inside-block{
+.timeline ul li:hover .central-inside-block {
   position: absolute;
   width: 108.5px;
   left: -7px;
- margin-top: -5px;
+  margin-top: -5px;
 }
+
 /* posição do nome do time depois de descer */
-.timeline ul li:hover .central-pos{
+.timeline ul li:hover .central-pos {
   position: absolute;
   width: 108.5px;
   left: 92px;
-  
+
 }
+
 /* central medal after hover */
-.timeline ul li:hover .medal3{
+.timeline ul li:hover .medal3 {
   position: absolute;
   top: 160px;
   bottom: 0px;
@@ -128,6 +133,7 @@ body {
   left: 69px;
 
 }
+
 /* invite medalha invisivel para o slide SECOND */
 .invite-appear {
   display: none;
@@ -140,20 +146,22 @@ body {
 
 
 /* invite medalha visivel SECOND*/
-.timeline ul li:hover .invite-appear{
-  display:block;
+.timeline ul li:hover .invite-appear {
+  display: block;
   position: absolute;
   top: 88px;
   right: 0px;
   left: 68px;
   font-size: 15px;
 }
+
 /* texto do invite invisivel  SECOND*/
-.second-text{
+.second-text {
   color: transparent;
 }
+
 /* texto do invite invisivel  SECOND*/
-.timeline ul li:hover .second-text{
+.timeline ul li:hover .second-text {
   color: white;
   position: absolute;
   left: 107px;
@@ -178,8 +186,8 @@ body {
 
 
 /* invite medalha visivel  THIRD*/
-.timeline ul li:hover .invite-appear3{
-  display:block;
+.timeline ul li:hover .invite-appear3 {
+  display: block;
   position: absolute;
   top: 120px;
   right: 0px;
@@ -188,11 +196,12 @@ body {
 }
 
 /* texto do invite invisivel  THIRD */
-.third-text{
+.third-text {
   color: transparent;
 }
+
 /* texto do invite invisivel  THIRD */
-.timeline ul li:hover .third-text{
+.timeline ul li:hover .third-text {
   color: white;
   position: absolute;
   left: 107px;
@@ -200,91 +209,101 @@ body {
   font-weight: 300;
   font-size: 15px;
 }
+
 /* open indo pra baixo no bloco */
-.timeline ul li:hover .open-inside-block{
+.timeline ul li:hover .open-inside-block {
   position: absolute;
   left: 190px;
   top: 165px;
 }
+
 /* open indo pra baixo no bloco medalha */
-.timeline ul li:hover .medal4{
+.timeline ul li:hover .medal4 {
   position: absolute;
   left: 290px;
   top: 160px;
 }
+
 /* acesso medalha pos abertura */
-.acesso-second{
+.acesso-second {
   display: none;
   position: absolute;
   top: 88px;
   left: 290px;
 }
+
 /* acesso medalha pos abertura */
-.timeline ul li:hover .acesso-second{
+.timeline ul li:hover .acesso-second {
   display: block;
 }
+
 /* texto pos abertura */
-.second-acess-text{
+.second-acess-text {
   display: none;
 }
+
 /* texto pos abertura */
-.timeline ul li:hover .second-acess-text{
-display: block;
-  position:absolute; 
-left: 328px;
-  top: 94px;
-  font-size: 15px;  
-}
-/* texto pos abertura */
-.third-acess-text{
-  display: none;
-}
-/* texto pos abertura */
-.timeline ul li:hover .third-acess-text{
+.timeline ul li:hover .second-acess-text {
   display: block;
-    position:absolute; 
+  position: absolute;
   left: 328px;
-    top: 126px;
-    font-size: 15px;  
-  }
+  top: 94px;
+  font-size: 15px;
+}
+
+/* texto pos abertura */
+.third-acess-text {
+  display: none;
+}
+
+/* texto pos abertura */
+.timeline ul li:hover .third-acess-text {
+  display: block;
+  position: absolute;
+  left: 328px;
+  top: 126px;
+  font-size: 15px;
+}
+
 /* acesso medalha pos abertura */
-  .acesso-third{
-    display: none;
-    position: absolute;
-    top: 120px;
-    left: 290px;
-  }
-  /* acesso medalha pos abertura */
-  .timeline ul li:hover .acesso-third{
-    display: block;
-  }
+.acesso-third {
+  display: none;
+  position: absolute;
+  top: 120px;
+  left: 290px;
+}
 
-  /* texto pos abertura */
-.second-central-text{
+/* acesso medalha pos abertura */
+.timeline ul li:hover .acesso-third {
+  display: block;
+}
+
+/* texto pos abertura */
+.second-central-text {
   display: none;
 }
 
-.timeline ul li:hover .second-central-text{
+.timeline ul li:hover .second-central-text {
   display: block;
-    position:absolute; 
-    left: 106px;
-    top: 199px;
-    font-size: 15px;  
-  }
+  position: absolute;
+  left: 106px;
+  top: 199px;
+  font-size: 15px;
+}
 
-  /* acesso medalha pos abertura */
-  .central-second{
-    display: none;
-    position: absolute;
-    top: 193px;
-    left: 69px;
-    bottom: 0px;
-    right: 0px;
-  }
+/* acesso medalha pos abertura */
+.central-second {
+  display: none;
+  position: absolute;
+  top: 193px;
+  left: 69px;
+  bottom: 0px;
+  right: 0px;
+}
 
-  .timeline ul li:hover .central-second{
-    display: block;
-  }
+.timeline ul li:hover .central-second {
+  display: block;
+}
 
 
 
@@ -294,32 +313,32 @@ left: 328px;
 ------------------------------------------------------------------------------------------------------------*/
 
 
-  /* texto pos abertura */
-  .third-central-text{
-    display: none;
-  }
-  
-  .timeline ul li:hover .third-central-text{
-    display: block;
-      position:absolute; 
-      left: 106px;
-      top: 231px;
-      font-size: 15px;  
-    }
-  
-    /* acesso medalha pos abertura */
-    .central-third{
-      display: none;
-      position: absolute;
-      top: 225px;
-      left: 69px;
-      bottom: 0px;
-      right: 0px;
-    }
-  
-    .timeline ul li:hover .central-third{
-      display: block;
-    }
+/* texto pos abertura */
+.third-central-text {
+  display: none;
+}
+
+.timeline ul li:hover .third-central-text {
+  display: block;
+  position: absolute;
+  left: 106px;
+  top: 231px;
+  font-size: 15px;
+}
+
+/* acesso medalha pos abertura */
+.central-third {
+  display: none;
+  position: absolute;
+  top: 225px;
+  left: 69px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.timeline ul li:hover .central-third {
+  display: block;
+}
 
 
 
@@ -331,62 +350,62 @@ left: 328px;
 
 
 /* texto pos abertura */
-.second-open-text{
+.second-open-text {
   display: none;
 }
 
-.timeline ul li:hover .second-open-text{
+.timeline ul li:hover .second-open-text {
   display: block;
-    position:absolute; 
-    left: 329px;
-    top: 199px;
-    font-size: 15px;  
-  }
+  position: absolute;
+  left: 329px;
+  top: 199px;
+  font-size: 15px;
+}
 
-  /* acesso medalha pos abertura */
-  .open-second{
-    display: none;
-    position: absolute;
-    top: 193px;
-    left: 290px;
-    bottom: 0px;
-    right: 0px;
-  }
+/* acesso medalha pos abertura */
+.open-second {
+  display: none;
+  position: absolute;
+  top: 193px;
+  left: 290px;
+  bottom: 0px;
+  right: 0px;
+}
 
-  .timeline ul li:hover .open-second{
-    display: block;
-  }
+.timeline ul li:hover .open-second {
+  display: block;
+}
 
 
 
 
 
 /* texto pos abertura */
-.third-open-text{
+.third-open-text {
   display: none;
 }
 
-.timeline ul li:hover .third-open-text{
+.timeline ul li:hover .third-open-text {
   display: block;
-    position:absolute; 
-    left: 329px;
-    top: 231px;
-    font-size: 15px;  
-  }
+  position: absolute;
+  left: 329px;
+  top: 231px;
+  font-size: 15px;
+}
 
-  /* acesso medalha pos abertura */
-  .open-third{
-    display: none;
-    position: absolute;
-    top: 225px;
-    left: 290px;
-    bottom: 0px;
-    right: 0px;
-  }
+/* acesso medalha pos abertura */
+.open-third {
+  display: none;
+  position: absolute;
+  top: 225px;
+  left: 290px;
+  bottom: 0px;
+  right: 0px;
+}
 
-  .timeline ul li:hover .open-third{
-    display: block;
-  }
+.timeline ul li:hover .open-third {
+  display: block;
+}
 
 
 
@@ -414,11 +433,11 @@ left: 328px;
   height: 35px;
   position: absolute;
   background-repeat: no-repeat;
-  
+
 }
 
 
-.medal2{
+.medal2 {
   background-image: url("./img/medal-first-40px.png");
   top: 55px;
   bottom: 0px;
@@ -429,7 +448,7 @@ left: 328px;
   background-repeat: no-repeat;
 }
 
-.medal3{
+.medal3 {
   background-image: url("./img/medal-first-40px.png");
   top: 93px;
   bottom: 0px;
@@ -440,7 +459,7 @@ left: 328px;
   background-repeat: no-repeat;
 }
 
-.medal4{
+.medal4 {
   background-image: url("./img/medal-first-40px.png");
   top: 92px;
   bottom: 0px;
@@ -464,7 +483,7 @@ left: 328px;
   font-size: 15px;
   line-height: 30px;
   margin-bottom: 10px;
-  
+
   color: rgb(201, 201, 201);
 }
 
@@ -473,9 +492,9 @@ left: 328px;
   font-weight: 500;
   font-size: 25px;
   line-height: 30px;
-  
+
   margin-bottom: 10px;
-    
+
 }
 
 /* conteúdo dos blocos  */
@@ -495,96 +514,98 @@ left: 328px;
   letter-spacing: 2px;
 }
 
-  .timeline:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2px;
-    height: 100%;
-  }
-  
-  /* altura da caixa */
-  .timeline ul li {
-    margin-top: 81.5px;
-  }
+.timeline:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+}
 
-  /* largura da caixa */
-  .timeline ul li {
-    width: 52.5%;
-    position: relative;
-    margin-bottom: 50px;
-  }
- 
- /* distancia do bloco pra linha  */
- 
-  .timeline ul li:nth-child(odd) {
-    float: left;
-    clear: right;
-    transform: translateX(-84px);
-    border-radius: 20px 20px 20px 20px;
-  }
-  
-  
-  
-  
-  /* tamanho, altura e cor da bola */
-  .timeline ul li::before {
-    content: "";
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: #181713;
-    top: 0px;
-    
-  }
-  
-  /* distancia da bola pro bloco */
-  .timeline ul li:nth-child(odd)::before {
-    transform: translate(50%, -50%);
-    right: -15px;
-  }
-  .timeline ul li:nth-child(even)::before {
-    transform: translate(-50%, -50%);
-    left: -15px;
-  }
-  
-  /* altura da data  */
-  .date {
-    position: absolute;
-    top: 63px;
-    left: -17px;
-  }
-  
-  /* cor da bola  */
-  .timeline ul li:hover::before {
+/* altura da caixa */
+.timeline ul li {
+  margin-top: 81.5px;
+}
+
+/* largura da caixa */
+.timeline ul li {
+  width: 52.5%;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+/* distancia do bloco pra linha  */
+
+.timeline ul li:nth-child(odd) {
+  float: left;
+  clear: right;
+  transform: translateX(-84px);
+  border-radius: 20px 20px 20px 20px;
+}
+
+
+
+
+/* tamanho, altura e cor da bola */
+.timeline ul li::before {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #181713;
+  top: 0px;
+
+}
+
+/* distancia da bola pro bloco */
+.timeline ul li:nth-child(odd)::before {
+  transform: translate(50%, -50%);
+  right: -15px;
+}
+
+.timeline ul li:nth-child(even)::before {
+  transform: translate(-50%, -50%);
+  left: -15px;
+}
+
+/* altura da data  */
+.date {
+  position: absolute;
+  top: 63px;
+  left: -17px;
+}
+
+/* cor da bola  */
+.timeline ul li:hover::before {
   background-color: rgb(35, 211, 167);
-  }
+}
 
 
 /* grossura da linha */
 
-  .container-line {
-        
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 5px;
-      height: 74.6%;
-      background-color: rgb(83, 83, 83);
-    }
+.container-line {
 
-@media only screen and (max-height: 850px){
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 74.6%;
+  background-color: rgb(83, 83, 83);
+}
+
+@media only screen and (max-height: 850px) {
+
   /* grossura da linha */
-    .container-line {
- 
-      height: 63%;
-    
-    }
+  .container-line {
+
+    height: 63%;
+
   }
+}
 
 /* força do shade do background*/
 .shade {
@@ -600,7 +621,7 @@ left: 328px;
 
 
 /* texto slide*/
-.timeline ul li:hover .second-text{
+.timeline ul li:hover .second-text {
   animation-duration: 0.5s;
   animation-name: slidein;
   animation-iteration-count: 1;
@@ -617,8 +638,9 @@ left: 328px;
     width: 100%;
   }
 }
+
 /* medalha slide*/
-.timeline ul li:hover .invite-appear{
+.timeline ul li:hover .invite-appear {
   animation-duration: 0.6s;
   animation-name: slidein;
   animation-iteration-count: 1;
@@ -642,7 +664,7 @@ left: 328px;
 
 
 /* texto slide*/
-.timeline ul li:hover .third-text{
+.timeline ul li:hover .third-text {
   animation-duration: 0.5s;
   animation-name: slidein;
   animation-iteration-count: 1;
@@ -659,8 +681,9 @@ left: 328px;
     width: 300%;
   }
 }
+
 /* medalha   slide*/
-.timeline ul li:hover .invite-appear3{
+.timeline ul li:hover .invite-appear3 {
   animation-duration: 0.6s;
   animation-name: slidein;
   animation-iteration-count: 1;
@@ -674,7 +697,7 @@ left: 328px;
   }
 
   to {
-    
+
     margin-left: 0%;
     width: 100%;
   }
@@ -683,7 +706,7 @@ left: 328px;
 
 
 /* texto slide*/
-.timeline ul li:hover .third-acess-text{
+.timeline ul li:hover .third-acess-text {
   animation-duration: 0.5s;
   animation-name: slidein-acess;
   animation-iteration-count: 1;
@@ -700,8 +723,9 @@ left: 328px;
     width: 300%;
   }
 }
+
 /* medalha   slide*/
-.timeline ul li:hover .acesso-third{
+.timeline ul li:hover .acesso-third {
   animation-duration: 0.6s;
   animation-name: slidein-acess;
   animation-iteration-count: 1;
@@ -715,7 +739,7 @@ left: 328px;
   }
 
   to {
-    
+
     margin-left: 0%;
     width: 100%;
   }
@@ -725,7 +749,7 @@ left: 328px;
 
 
 /* texto slide*/
-.timeline ul li:hover .second-acess-text{
+.timeline ul li:hover .second-acess-text {
   animation-duration: 0.5s;
   animation-name: slidein-acess;
   animation-iteration-count: 1;
@@ -742,8 +766,9 @@ left: 328px;
     width: 300%;
   }
 }
+
 /* medalha   slide*/
-.timeline ul li:hover .acesso-second{
+.timeline ul li:hover .acesso-second {
   animation-duration: 0.6s;
   animation-name: slidein-acess;
   animation-iteration-count: 1;
@@ -757,7 +782,7 @@ left: 328px;
   }
 
   to {
-    
+
     margin-top: 0%;
     width: 100%;
   }
@@ -767,7 +792,7 @@ left: 328px;
 
 
 /* texto slide*/
-.timeline ul li:hover .third-central-text{
+.timeline ul li:hover .third-central-text {
   animation-duration: 0.5s;
   animation-name: slidein-central;
   animation-iteration-count: 1;
@@ -784,8 +809,9 @@ left: 328px;
     width: 300%;
   }
 }
+
 /* medalha   slide*/
-.timeline ul li:hover .central-third{
+.timeline ul li:hover .central-third {
   animation-duration: 0.6s;
   animation-name: slidein-central;
   animation-iteration-count: 1;
@@ -799,7 +825,7 @@ left: 328px;
   }
 
   to {
-    
+
     margin-right: 0%;
     width: 100%;
   }
@@ -808,7 +834,7 @@ left: 328px;
 
 
 /* texto slide*/
-.timeline ul li:hover .second-central-text{
+.timeline ul li:hover .second-central-text {
   animation-duration: 0.5s;
   animation-name: slidein-central;
   animation-iteration-count: 1;
@@ -825,8 +851,9 @@ left: 328px;
     width: 300%;
   }
 }
+
 /* medalha   slide*/
-.timeline ul li:hover .central-second{
+.timeline ul li:hover .central-second {
   animation-duration: 0.6s;
   animation-name: slidein-central;
   animation-iteration-count: 1;
@@ -840,7 +867,7 @@ left: 328px;
   }
 
   to {
-    
+
     margin-right: 0%;
     width: 100%;
   }
@@ -850,7 +877,7 @@ left: 328px;
 
 
 /* texto slide*/
-.timeline ul li:hover .second-open-text{
+.timeline ul li:hover .second-open-text {
   animation-duration: 0.5s;
   animation-name: slidein-open;
   animation-iteration-count: 1;
@@ -867,8 +894,9 @@ left: 328px;
     width: 300%;
   }
 }
+
 /* medalha   slide*/
-.timeline ul li:hover .open-second{
+.timeline ul li:hover .open-second {
   animation-duration: 0.6s;
   animation-name: slidein-open;
   animation-iteration-count: 1;
@@ -882,7 +910,7 @@ left: 328px;
   }
 
   to {
-    
+
     margin-right: 0%;
     width: 100%;
   }
@@ -892,7 +920,7 @@ left: 328px;
 
 
 /* texto slide*/
-.timeline ul li:hover .third-open-text{
+.timeline ul li:hover .third-open-text {
   animation-duration: 0.5s;
   animation-name: slidein-open;
   animation-iteration-count: 1;
@@ -909,8 +937,9 @@ left: 328px;
     width: 300%;
   }
 }
+
 /* medalha   slide*/
-.timeline ul li:hover .open-third{
+.timeline ul li:hover .open-third {
   animation-duration: 0.6s;
   animation-name: slidein-open;
   animation-iteration-count: 1;
@@ -924,7 +953,7 @@ left: 328px;
   }
 
   to {
-    
+
     margin-right: 0%;
     width: 100%;
   }
