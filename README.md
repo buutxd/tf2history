@@ -6,6 +6,7 @@
 ## Dependências
 Project is created with:
 * sass
+* typescript-modules
 
 	
 ## Setup
