@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Moulpali&display=swap');
+
+
+
+
+body {
+  background-image: url("./assets/background-image-1.png");
+  background-size: cover;
+  background-attachment: fixed;
+
+  background-image:
+    /* top, transparent red */
+    linear-gradient(rgba(0, 2, 80, 0.3),
+      rgba(0, 2, 80, 0.3)),
+    /* your image */
+    url("./assets/background-image-1.png");
+
+  margin-top: 2rem;
+
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Moulpali', cursive;
+
+
+}
