@@ -7,6 +7,8 @@
 Project is created with:
 * sass
 * typescript-modules
+* normalize-css
+* typescript
 
 	
 ## Setup
