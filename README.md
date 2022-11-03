@@ -1,6 +1,6 @@
 
 ## Informação geral
- Histórico de campeonatos
+ (Ainda sendo feito) Histórico de campeonatos
 
 	
 ## Dependências
