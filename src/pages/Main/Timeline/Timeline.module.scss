@@ -196,6 +196,7 @@ table {
 
 
     .line {
+        z-index: -1;
         margin-top: 20rem;
         content: '';
         position: absolute;
@@ -281,9 +282,6 @@ table {
         background-color: #22211c;
         border-radius: 50%;
         transform: translate(-50%, -50%);
-
-
-
 
     }
 

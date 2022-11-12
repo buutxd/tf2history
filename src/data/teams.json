@@ -14,7 +14,8 @@
         "AcessThird": "acess team",
         "OpenTeam": "Tejota Bombs",
         "OpenSecond": "open team",
-        "OpenThird": "open team"
+        "OpenThird": "open team",
+        "leagueLogo": "../assets/leagueLogo/bf-image-50px.png"
     },
     {
         "date": "20 de maio, 2011",
@@ -31,7 +32,8 @@
         "AcessThird": "invite team",
         "OpenTeam": "Tejota Bombs",
         "OpenSecond": "invite team",
-        "OpenThird": "invite team"
+        "OpenThird": "invite team",
+        "leagueLogo": "../assets/leagueLogo/FBTF-LOGO.png"
     },
     {
         "date": "20 de maio, 2011",
@@ -48,6 +50,7 @@
         "AcessThird": "invite team",
         "OpenTeam": "Tejota Bombs",
         "OpenSecond": "invite team",
-        "OpenThird": "invite team"
+        "OpenThird": "invite team",
+        "leagueLogo": "../assets/leagueLogo/294px-Vanilla_fortress_logo.png"
     }
 ]

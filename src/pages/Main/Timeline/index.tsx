@@ -5,6 +5,7 @@ import third from '../../../assets/medals/medal-third-40px.png'
 import data from '../../../data/teams.json'
 
 
+
 import { useState } from 'react';
 
 
@@ -16,26 +17,22 @@ export default function Timeline() {
     const [index, setIndex] = useState<any>()
 
 
-    let buttonstyle = {
+    let linestyle = {
         marginTop: ''
     }
 
     if (index === 0 && over) {
-        buttonstyle.marginTop = "19rem";
+        linestyle.marginTop = "18rem";
     }
     else {
-        buttonstyle.marginTop = '';
+        linestyle.marginTop = '';
     }
 
     return (
         <div className={styles.container}>
 
             <div className={styles.timeline}>
-                <p
-                    className={styles.line}
-                    style={buttonstyle}
 
-                ></p>
                 <ul >
                     {data.map((item, index) => (
 
@@ -45,23 +42,17 @@ export default function Timeline() {
                             onMouseOut={() => setOver(false)}
                         >
 
-                            <div className={styles.timeline__content} >
-
-
-
-
+                            <div className={styles.timeline__content} style={{}}>
 
                                 <table className={styles.table} >
 
-                                    <p className={styles.ball} style={{ left: index % 2 ? '-50px' : '535px' }}></p>
 
-
-
+                                    <p className={styles.ball} style={{ backgroundImage: `url(${item.leagueLogo})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', left: index % 2 ? '-50px' : '535px' }}></p>
 
                                     <h2 className={styles.date}>{item.date}</h2>
 
                                     <h1>{item.title} <span className={styles.lType}>{item.leagueType}</span></h1>
-                                    <tr>
+                                    <tr >
                                         <td><div>INVITE - <img src={first} alt="medal first" className={styles.medal} />{item.InviteTeam}</div></td>
                                         <td><div>CENTRAL - <img src={first} alt="medal first" className={styles.medal} />{item.CentralTeam}</div></td>
                                     </tr>
@@ -100,7 +91,11 @@ export default function Timeline() {
                         </li>
                     ))}
 
+                    <p
+                        className={styles.line}
+                        style={linestyle}
 
+                    ></p>
                 </ul>
 
             </div>
