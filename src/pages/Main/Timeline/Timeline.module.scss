@@ -288,11 +288,18 @@ table {
     .ball::before {
         content: '';
         position: absolute;
-        width: 30px;
-        height: 220px;
+        width: 31px;
+        height: 30px;
+
+    }
+
+    .timeline ul li:hover .ball::before {
+        height: 100vh;
+
 
 
     }
+
 
 
 
