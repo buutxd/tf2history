@@ -5,10 +5,10 @@
 	
 ## Dependências
 Project is created with:
-* sass
-* typescript-modules
-* normalize-css
-* typescript
+* Sass
+* Normalize-css
+* Typescript
+* Recoil
 
 
 	
