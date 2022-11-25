@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import 'normalize.css'
-import './index.css'
-import Principal from './pages/Main/index'
+import 'normalize.css';
+import './index.css';
+import Principal from './pages/Main/index';
 
 
 
@@ -13,8 +13,8 @@ root.render(
   <React.StrictMode>
 
 
-    <Principal/>
-    
+    <Principal />
+
   </React.StrictMode>
 );
 

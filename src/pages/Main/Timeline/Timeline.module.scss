@@ -194,15 +194,16 @@ table {
     }
 
 
-
+    // a linha muda de tamanho após o hover,
+    // essa mudança é feita diretamente no html da Timeline
     .line {
         z-index: -1;
-        margin-top: 20rem;
+        margin-top: 22.5rem;
         content: '';
         position: absolute;
         top: -100px;
         left: 50%;
-        height: 100%;
+        height: 140%;
         transform: translateX(-50%);
         width: 5px;
         background-color: rgb(83, 83, 83);
@@ -276,8 +277,8 @@ table {
     .ball {
 
         position: absolute;
-        height: 30px;
-        width: 30px;
+        height: 35px;
+        width: 35px;
         margin-bottom: 40px;
         background-color: #22211c;
         border-radius: 50%;

@@ -14,7 +14,10 @@
     "react": "^18.2.0",
     "react-animate-height": "^3.0.4",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
+    "recoil": "^0.7.6",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
@@ -43,6 +46,10 @@
     ]
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "eslint-plugin-react": "^7.31.11",
     "sass": "^1.55.0",
     "typescript-plugin-css-modules": "^3.4.0"
   }
