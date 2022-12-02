@@ -19,7 +19,7 @@ export default function Menu() {
       style={{ paddingTop: aberto === true ? '11px' : '' }}
     >
       <span className={styles.span}>
-        {ordenador === '' || 'ㅤㅤㅤ' ? 'Ordenar por' : ordenador}
+        {ordenador === '' ? 'Ordenar por' : ordenador}
       </span>
       <div className={aberto === true ? styles.ordenador__options__ativo : styles.ordenador__options} >
         {opcoes.map(opcao => (
