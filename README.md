@@ -1,10 +1,9 @@
 
 ## Informação geral
- (Ainda sendo feito) Histórico de campeonatos
+Histórico de campeonatos
 
 	
 ## Dependências
-Project is created with:
 * sass
 * typescript-modules
 * normalize-css
